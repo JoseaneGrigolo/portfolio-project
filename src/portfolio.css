@@ -166,8 +166,17 @@ h3 {
 @media (max-width: 576px) {
   /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
   .detail-position {
-    text-align: center;
+    display: none;
   }
+  .logo-image {
+    display: none;
+  }
+  /*NAV INDEX-ABOUT-WORK-CONTACT*/
+  .img-nav {
+    height: 80%;
+    width: 80%;
+  }
+
   /*H1 WORK*/
   /*H1 CONTACT*/
   .text-contact,
