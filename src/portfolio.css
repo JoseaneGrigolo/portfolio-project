@@ -9,15 +9,34 @@
 .navbar {
   background-color: #282323;
 }
+
 h3 {
   font-size: 24px;
   margin-top: 50px;
 }
+.color-btn {
+  background-color: #282323;
+  cursor: default;
+}
+.about {
+  color: #f65282;
+  font-size: 18px;
+}
+
 h1 {
   font-size: 72px;
   letter-spacing: 0.5rem;
 }
+
+.about-me {
+  font-size: 64px;
+}
+
 .p-margin {
+  font-size: 18px;
+}
+
+.p-text {
   font-size: 18px;
 }
 .b-margin {
@@ -25,12 +44,23 @@ h1 {
   padding: 10px 30px;
   margin-top: 50px;
 }
+
+.contact-me {
+  font-size: 14px;
+  padding: 10px 30px;
+}
+
 .detail-position {
   text-align: right;
   font-size: 12px;
 }
+
 footer {
   background-color: #282323;
+}
+.i-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .link {
   color: white;
