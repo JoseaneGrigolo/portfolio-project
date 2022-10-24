@@ -8,8 +8,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
+:root {
+  --primary-color: #f65282;
+  --secondary-color: #282323;
+}
+
 .navbar {
-  background-color: #282323;
+  background-color: var(--secondary-color);
 }
 
 .text-size {
@@ -28,22 +33,22 @@ h3 {
 }
 
 .color-btn {
-  background-color: #282323;
+  background-color: var(--secondary-color);
   cursor: default;
 }
 
 .about {
-  color: #f65282;
+  color: var(--primary-color);
   font-size: 18px;
 }
 
 .contact-text {
-  color: #f65282;
+  color: var(--primary-color);
   font-size: 14px;
 }
 
 .color-text {
-  color: #f65282;
+  color: var(--primary-color);
 }
 
 .about-me {
@@ -89,7 +94,7 @@ h3 {
 }
 
 footer {
-  background-color: #282323;
+  background-color: var(--secondary-color);
 }
 
 .work {
