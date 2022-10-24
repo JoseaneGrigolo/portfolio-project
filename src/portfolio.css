@@ -17,156 +17,196 @@
   background-color: var(--secondary-color);
 }
 
+/*CONTAINER ABOUT-WORK*/
+.work {
+  margin-bottom: 200px;
+}
+
+/*FOOTER INDEX-ABOUT-WORK-CONTACT*/
+footer {
+  background-color: var(--secondary-color);
+}
+
+/*FOOTER INDEX-ABOUT-WORK-CONTACT*/
+.detail-position {
+  text-align: right;
+  font-size: 12px;
+}
+
+/*INDEX PAGE*/
+/*H1 INDEX*/
 .text-size {
   font-size: 72px;
   letter-spacing: 0.5rem;
 }
 
-.text-contact {
-  margin-top: 50px;
-  font-size: 72px;
-}
-
-h3 {
-  font-size: 24px;
-  margin-top: 50px;
-}
-
-.color-btn {
-  background-color: var(--secondary-color);
-  cursor: default;
-}
-
-.about {
-  color: var(--primary-color);
-  font-size: 18px;
-}
-
-.contact-text {
-  color: var(--primary-color);
-  font-size: 14px;
-}
-
-.color-text {
-  color: var(--primary-color);
-}
-
-.about-me {
-  font-size: 64px;
-}
-
+/*P TEXT INDEX*/
 .p-margin {
   font-size: 18px;
 }
 
-.p-text {
-  font-size: 18px;
-}
-
-.p-start {
-  text-align: left;
-}
-
+/*BUTTON INDEX*/
 .b-margin {
   font-size: 14px;
   padding: 18px 30px;
   margin-top: 50px;
 }
 
-.contact-margin {
-  font-size: 14px;
-  padding: 18px 30px;
+/*H3 INDEX*/
+h3 {
+  font-size: 24px;
   margin-top: 50px;
 }
+
+/*ABOUT PAGE*/
+/*H1 ABOUT*/
+.about-me {
+  font-size: 64px;
+  letter-spacing: 0.5rem;
+}
+
+/*ICON ABOUT*/
+.i-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*BTN ABOUT*/
+.color-btn {
+  background-color: var(--secondary-color);
+  cursor: default;
+}
+
+/*H3 ABOUT*/
+.about {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+/*P TEXT ABOUT*/
+.p-text {
+  font-size: 18px;
+}
+
+/*BUTTON ABOUT*/
 .contact-me {
   font-size: 14px;
   padding: 18px 30px;
   margin-top: 40px;
 }
 
-.detail-position {
-  text-align: right;
-  font-size: 12px;
+/*WORK PAGE*/
+/*H1 WORK*/
+.work-letter {
+  font-size: 72px;
+  letter-spacing: 0.5rem;
 }
 
+/*H3 WORK*/
+.color-text {
+  color: var(--primary-color);
+}
+
+/*H3 - P WORK*/
+.p-start {
+  text-align: left;
+}
+
+/*P WORK*/
+.p-work {
+  font-size: 18px;
+}
+
+/*ICON WORK*/
 .link-size {
   font-size: 24px;
 }
 
-footer {
-  background-color: var(--secondary-color);
+/*BUTTON WORK*/
+.contact-margin {
+  font-size: 14px;
+  padding: 18px 30px;
+  margin-top: 50px;
 }
 
-.work {
-  margin-bottom: 200px;
+/*CONTACT PAGE*/
+/*H1 CONTACT*/
+.text-contact {
+  margin-top: 50px;
+  font-size: 72px;
+  letter-spacing: 0.5rem;
 }
 
-.i-margin {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
+/*P CONTACT*/
+.contact-text {
+  color: var(--primary-color);
+  font-size: 14px;
 }
 
 @media (max-width: 340px) {
+  /*H1 INDEX*/
   .text-size {
     display: none;
   }
 }
 @media (max-width: 370px) {
+  /*BUTTON INDEX*/
   .b-margin {
     display: none;
   }
 }
 
 @media (max-width: 470px) {
+  /*P TEXT INDEX*/
   .p-margin {
     display: none;
   }
 }
 
 @media (max-width: 576px) {
+  /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
   .detail-position {
     text-align: center;
   }
-
-  .text-contact {
+  /*H1 WORK*/
+  /*H1 CONTACT*/
+  .text-contact,
+  .work-letter {
     font-size: 32px;
   }
-
+  /*H4 INDEX*/
   .detail {
     margin-bottom: 100px;
   }
-
+  /*IMG INDEX-ABOUT*/
   .images {
     display: none;
   }
-
+  /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
   .center-footer {
     text-align: center;
   }
-
+  /*H4 INDEX*/
   h4 {
     font-size: 14px;
   }
+  /*H3 - P WORK*/
   .p-start {
     text-align: center;
   }
 }
 
 @media (max-width: 624px) {
+  /*H3 INDEX*/
   h3 {
     font-size: 16px;
     margin-top: 0px;
   }
-
+  /*H1 INDEX*/
   .text-size {
-    font-size: 20px;
+    font-size: 38px;
   }
-
+  /*P TEXT INDEX*/
   .p-margin {
     font-size: 14px;
     margin-bottom: 0px;
@@ -174,55 +214,52 @@ footer {
 }
 
 @media (max-width: 796px) {
+  /*FOOTER INDEX-ABOUT-WORK-CONTACT*/
   span {
     font-size: 9px;
   }
+  /*CONTAINER ABOUT*/
   .align-div {
     text-align: center;
   }
+  /*BUTTON INDEX*/
   .b-margin {
     font-size: 10px;
     padding: 5px 10px;
     margin-top: 10px;
   }
-  .text-size {
-    font-size: 42px;
-  }
-
+  /*H3 INDEX*/
   h3 {
     font-size: 20px;
   }
 }
 @media (max-width: 945px) {
+  /*ICON ABOUT*/
   .link-change {
     display: none;
   }
 }
 
 @media (max-width: 1055px) {
+  /*BUTTON ABOUT*/
   .contact-me {
-    font-size: 12px;
-    padding: 10px 15px;
     margin: 0px;
   }
-
+  /*BUTTON WORK*/
   .contact-margin {
     font-size: 12px;
     padding: 15px 20px;
     margin-top: 50px;
   }
-
-  .about-me {
-    font-size: 32px;
-  }
 }
 
 @media (max-width: 1220px) {
+  /*BUTTON ABOUT*/
   .contact-me {
     font-size: 12px;
     padding: 15px 20px;
   }
-
+  /*H1 ABOUT*/
   .about-me {
     font-size: 32px;
   }
