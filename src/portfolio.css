@@ -106,7 +106,12 @@ footer {
   text-decoration: none;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 340px) {
+  .text-size {
+    display: none;
+  }
+}
+@media (max-width: 370px) {
   .b-margin {
     display: none;
   }
@@ -163,7 +168,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 796px) {
   span {
     font-size: 9px;
   }
@@ -175,9 +180,10 @@ footer {
     padding: 5px 10px;
     margin-top: 10px;
   }
-  h1 {
-    font-size: 52px;
+  .text-size {
+    font-size: 42px;
   }
+
   h3 {
     font-size: 20px;
   }
